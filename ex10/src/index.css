@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,700;1,400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "PT sans", sans-serif;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 100vh;
+}
+
+#left {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+  padding: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  background-color: transparent;
+  border: white 0.5px solid;
+}
+
+.primary-btn {
+  width: 100%;
+  background-color: #0084bd;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  color: white;
+}
+
+#signin {
+  width: 70%;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.logo img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#links {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#links a {
+  display: block;
+  color: #124b80;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.secondary-btn {
+  display: block;
+  width: 100%;
+  background-color: #555555;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+}
+
+#main-footer {
+  color: lightgray;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#main-footer a {
+  color: lightgray;
+  font-size: 0.8rem;
+  margin-top: 140px;
+}
+
+#main-footer p {
+  margin-bottom: 10px;
+}
+
+#right {
+  padding: 300px 0;
+  text-align: center;
+  background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+#showcase {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#showcase h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+#showcase .secondary-btn {
+  color: white;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
+  display: block;
+}
+
+.hr-bar {
+  margin-bottom: 20px;
+}
